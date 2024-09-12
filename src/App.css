@@ -1,0 +1,66 @@
+body{
+  background-color: #e9ecef;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  margin: 0;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.photoContainer{ 
+  align-items: center;
+  justify-content: center;
+}
+
+.img{
+  max-width: 20%;
+  max-height: auto;
+  border-radius: 25%;
+}
+
+.cardContainer{
+  display: flex;
+  margin-top: 50px;
+}
+
+.cardProfessions{
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+  max-height: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-right: 300px;
+  padding: 10px;
+}
+
+.profession{
+  font-family:'Teko', sans-serif;
+  font-size: 30px;
+}
+
+.aboutMe{
+  background-color: #ffbf69;
+  max-width: auto;
+  max-height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.aboutMe > p {
+  font-size: 25px;
+  text-align: left;
+}
+
+.linksContainer{
+  margin-top: 40px;
+}
