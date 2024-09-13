@@ -4,27 +4,21 @@ const Links = () => {
     <div className = "linksContainer">
         <h2>Follow me by clicking these links below!</h2>
 
-        <div>
-            <div className = "linkedIn">
-                <a href = "https://www.linkedin.com/in/yosuf-p/">
-                    
-                    <h3>LinkedIn</h3>
-                </a>
-            </div>
+        <div className = "links">
+            <button className = "linkedIn" onClick={() => window.location.href = 'https://www.linkedin.com/in/yosuf-p/'}>
+                <i className="fa fa-linkedin-square" ></i>
+                <h3>LinkedIn</h3>
+            </button>
 
-            <div className = "github">
-                <a href = "https://github.com/YoYoDough">
-                    <img></img>
+            <button className = "github" onClick={() => window.location.href = 'https://github.com/YoYoDough'}>
+                    <i className="fa fa-github"></i>
                     <h3>Github</h3>
-                </a>
-            </div>
+            </button>
 
-            <div className = "website">
-                <a href = "import.meta.env.VITE_WEBSITE_URL"> {/*Bad Code, not correct*/}
-                    <img></img>
+            <button className = "website" onClick={() => window.location.href = import.meta.env.VITE_WEBSITE_URL}>
+                    <i className="fa-solid fa-globe"></i>
                     <h3>My Website</h3>
-                </a>
-            </div>
+            </button>
         </div>
     </div>
   )
